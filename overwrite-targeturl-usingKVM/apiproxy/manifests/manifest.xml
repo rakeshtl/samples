@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-Accept-to-Json" version="SHA-512:d44570a0e6cc8a8b68aa2755e46e6a4c124a0af94212ef99cc6620fce635319e751c4d2dd4289f742eda01d9c6f9ad8b66c231898a58d9b459fad3eff43a601c"/>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:ec153df1765bd6708a9abaaaa1327a9a0bdf00e79bb5615165400bf82bf6caf221115eea9d180ca7aae50365ced0ec32b41b5fcaa2b28ad2d5a45f2d5517a08c"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:5cf0ea15f602024aa350a8b98704ed506054493363f785aaf99b585236be8038d6382fcd6e43c6b93b4f9f475a8663359305396a9f248d2c49e1a71aa7d90ac1"/>
+        <VersionInfo resourceName="KVM-GetTargetConfigs" version="SHA-512:77a2d2d186dd648a7955af1039f83490ed35208f52921f1c9a23f43ea3f29f62eb506b876f2d48849e025680911a9aef4b64eb3eb96cdbf76545789e71558ff7"/>
+        <VersionInfo resourceName="add-cors" version="SHA-512:52bbfc2e8b7fb33a67ceed04e5902c4c9cec39751102f5eb238416d948a69a9fc50d5f9e2af686e8ea54c21fb27e190c661012bc7cc76d59b33985855fcb4e32"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:2ee78eed07b481617454087e13a2edd7291862e64af56a7b2bcae5194a22c246b5337d7140806be535a72dab57396bf8b1047c9d4628f264cb9ca257810cd839"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:bdd2080d4ce00a6b3c1aae61da06b2172767abf29b5f4c4c77fdab5748956a10eabc090c49bbf3b7bb4f28938572f98ec47f4542b6c2dca73c4e2539ea12a1f4"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:11797249d26d63acaaeffb68fa0a7bf17fd339dcc7f55764cad9da505738fe2b126b0fe1d2db0e4ed383836362ceb0043a95f21a56fbc5a1c83ef68d2fdab3f6"/>
+    </TargetEndpoints>
+</Manifest>

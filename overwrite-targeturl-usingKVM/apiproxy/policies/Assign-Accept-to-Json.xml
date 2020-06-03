@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Accept-to-Json">
+    <DisplayName>Assign Accept to Json</DisplayName>
+    <Properties/>
+    <AssignVariable>
+        <Name>target.url</Name>
+        <Ref>configs.targeturl</Ref>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

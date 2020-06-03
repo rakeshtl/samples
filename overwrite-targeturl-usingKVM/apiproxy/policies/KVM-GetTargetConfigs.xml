@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-GetTargetConfigs" mapIdentifier="targetmapping">
+    <DisplayName>KVM-GetTargetConfigs</DisplayName>
+    <Get assignTo="configs.targetUrl" index="1">
+        <Key>
+            <Parameter ref="configs.store"/>
+        </Key>
+    </Get>
+    <Get assignTo="configs.default.targetUrl" index="1">
+        <Key>
+            <Parameter>default</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

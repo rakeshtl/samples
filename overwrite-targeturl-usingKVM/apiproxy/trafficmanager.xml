@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="trafficmanager">
+    <Basepaths>/v1/trafficmanager</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1591194479462</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>api.alohaorderonline.com/v1/trafficmanager</Description>
+    <DisplayName>trafficmanager</DisplayName>
+    <LastModifiedAt>1591221420278</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:f255f7ef42196c18187f0351bee715131db0defef8c31394a63db3a1efd6e3d87c076788bc056cc6532b54aede38e3c9235f3bf4703288fd5e8176a712edbd5f</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Accept-to-Json</Policy>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>KVM-GetTargetConfigs</Policy>
+        <Policy>add-cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
