@@ -2,6 +2,8 @@ Overwrite target based on the Header parameter "store".
 Default target is set to https://mocktarget.apigee.net/
 If the store header contains store1 then the target is set to https://httpbin.org/get
 
+Make sure KVM is setup as shown in the image.
+
 sample output
 1. When store=store1 ... configured in the KVM
 curl http://rakesh-demo-test.apigee.net/v1/trafficmanager -H "store:store1"
