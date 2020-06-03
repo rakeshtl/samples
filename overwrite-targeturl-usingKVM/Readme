@@ -1,0 +1,28 @@
+Overwrite target based on the Header parameter "store".
+Default target is set to https://mocktarget.apigee.net/
+If the store header contains store1 then the target is set to https://httpbin.org/get
+
+sample output
+1. When store=store1 ... configured in the KVM
+curl http://rakesh-demo-test.apigee.net/v1/trafficmanager -H "store:store1"
+{
+  "args": {},
+  "headers": {
+    "Accept": "*/*",
+    "Host": "httpbin.org",
+    "Store": "store1",
+    "User-Agent": "curl/7.57.0",
+    "X-Amzn-Trace-Id": "Root=1-5ed81fce-8d331dd270a89a5841044a12"
+  },
+  "origin": "76.205.202.236, 35.237.38.106",
+  "url": "https://httpbin.org/get"
+}
+
+
+2. When store=store2 ... not configured in the KVM ... default value is used
+curl http://rakesh-demo-test.apigee.net/v1/trafficmanager -H "store:store2"
+Hello, Guest!
+
+3. When no store value is passed, default value is taken.
+curl http://rakesh-demo-test.apigee.net/v1/trafficmanager
+Hello, Guest!
