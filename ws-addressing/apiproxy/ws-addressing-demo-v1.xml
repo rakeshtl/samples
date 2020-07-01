@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="ws-addressing-demo-v1">
+    <Basepaths>/v1/ws-addressing-demo</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525198653204</CreatedAt>
+    <CreatedBy>vgadikota@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ws-addressing-demo-v1</DisplayName>
+    <LastModifiedAt>1525198653204</LastModifiedAt>
+    <LastModifiedBy>vgadikota@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:65808ed11895bbfad400b6c354e24046d09cfb1e0d6d6afdfc05430cf2f1a46223dc987030e26334efd9df7fdd02d709bde7279d021a94be9bb877459b145bd1</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessageTargetUrl</Policy>
+        <Policy>ExtractVariablesWsAddressing</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

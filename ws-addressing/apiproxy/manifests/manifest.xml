@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessageTargetUrl" version="SHA-512:c92143c109850007af971643e68b230b939559dd97ab55ab1eb06a42312e7c4117e75b9d8fbd634cc118c6ce2428fc73f670991bb7bc8b630ac40c616e719cae"/>
+        <VersionInfo resourceName="ExtractVariablesWsAddressing" version="SHA-512:ae1991fef452f31ed1190c9469b4819719de56885967d2421d746f50a9c0b8cee04e3382bae82042c71a59a74fe4dc54f287fdc7363cd0ed1455dabe4e80a5c3"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:5d637383b3a92fe08157b8479e6c88a4826541a354ae0e8894597eb82c7b1cd2fe5f971aac797547f29ebc8f1f6779d91c34c65481c5f45e74e9037f793db725"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:abc9155a3178511867982101915ea8049b1fdd34ce823e0d98f10be6f0c6b5ebb1fb3dc141bc5d5315bdab35f21c5ac6c602bc5e8801e88ca68a7073fd512b92"/>
+    </TargetEndpoints>
+</Manifest>

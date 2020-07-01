@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariablesWsAddressing">
+    <DisplayName>ExtractVariables.WsAddressing</DisplayName>
+    <Source>request</Source>
+    <XMLPayload>
+        <Namespaces>
+            <Namespace prefix="s">http://www.w3.org/2003/05/soap-envelope</Namespace>
+            <Namespace prefix="wsa">http://schemas.xmlsoap.org/ws/2004/08/addressing</Namespace>
+        </Namespaces>
+        <Variable name="target.url" type="string">
+            <XPath>/s:Envelope/s:Header/wsa:ReplyTo/wsa:Address</XPath>
+        </Variable>
+    </XMLPayload>
+    <VariablePrefix>wsaaddress</VariablePrefix>
+</ExtractVariables>
