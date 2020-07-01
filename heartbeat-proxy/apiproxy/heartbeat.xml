@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="heartbeat">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1461037666249</CreatedAt>
+    <CreatedBy>tdavid@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>heartbeat</DisplayName>
+    <LastModifiedAt>1461037791124</LastModifiedAt>
+    <LastModifiedBy>tdavid@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>BeatQuota</Policy>
+        <Policy>Status-200</Policy>
+        <Policy>Status200</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
