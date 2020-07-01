@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="7" name="ws-security-v1">
+    <Basepaths>/v1/ws-security</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525266390198</CreatedAt>
+    <CreatedBy>vgadikota@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ws-security-v1</DisplayName>
+    <LastModifiedAt>1525355944877</LastModifiedAt>
+    <LastModifiedBy>vgadikota@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:f6c54cecfc88306c5df1c817e1e8d65acb2ba4968cb77540d858d670d9f7c5879232d4888210392131d61db4b81646f913e0551da6c13abe05bb77866faf7fcc</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessageGoodResponse</Policy>
+        <Policy>JavaSignSoapDoc</Policy>
+        <Policy>KeyValueMapJksProperties</Policy>
+        <Policy>RaiseFaultBadHeader</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://commons-codec-1.7.jar</Resource>
+        <Resource>java://commons-io-2.4.jar</Resource>
+        <Resource>java://commons-lang3-3.7.jar</Resource>
+        <Resource>java://edge-wssec-sign-x509-1.0.3.jar</Resource>
+        <Resource>java://logback-classic-1.0.13.jar</Resource>
+        <Resource>java://logback-core-1.0.13.jar</Resource>
+        <Resource>java://message-flow-1.0.0.jar</Resource>
+        <Resource>java://slf4j-api-1.7.25.jar</Resource>
+        <Resource>java://ws-sec.jar</Resource>
+        <Resource>java://wss4j-bindings-2.2.1.jar</Resource>
+        <Resource>java://wss4j-ws-security-common-2.2.1.jar</Resource>
+        <Resource>java://wss4j-ws-security-dom-2.2.1.jar</Resource>
+        <Resource>java://wss4j-ws-security-stax-2.2.1.jar</Resource>
+        <Resource>java://xmlsec-2.1.1.jar</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

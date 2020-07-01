@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RaiseFaultBadHeader">
+    <DisplayName>RaiseFault.BadHeader</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Payload contentType="text/xml">
+                <error>
+                    <message>invalid request - bad content-type header</message>
+                    <hint>
+                        <property name="content-type" value="text/xml or application/xml"/>
+                        <property name="queryparams" value="texttoadd or xpath"/>
+                    </hint>
+                </error>
+            </Payload>
+            <StatusCode>400</StatusCode>
+            <ReasonPhrase>Bad Request</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

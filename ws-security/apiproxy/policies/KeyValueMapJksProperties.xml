@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KeyValueMapJksProperties" mapIdentifier="test-certs">
+    <DisplayName>KeyValueMap.JksProperties</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Scope>environment</Scope>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Get assignTo="jks-base64">
+        <Key>
+            <Parameter>cert1</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="jks-alias">
+        <Key>
+            <Parameter>cert1.alias</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="jks-password">
+        <Key>
+            <Parameter>cert1.password</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

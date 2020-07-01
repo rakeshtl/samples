@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>RaiseFaultBadHeader</Name>
+                <Condition>request.header.content-type != "text/xml" AND request.header.content-type != "application/xml"</Condition>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="sign">
+            <Description>sign SOAP body - retrieve JKS from KVM</Description>
+            <Request>
+                <Step>
+                    <Name>KeyValueMapJksProperties</Name>
+                </Step>
+                <Step>
+                    <Name>JavaSignSoapDoc</Name>
+                </Step>
+            </Request>
+            <Response>
+                <Step>
+                    <Name>AssignMessageGoodResponse</Name>
+                </Step>
+            </Response>
+            <Condition>(proxy.pathsuffix ~ "/sign") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/v1/ws-security</BasePath>
+        <Properties/>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noroute"/>
+</ProxyEndpoint>

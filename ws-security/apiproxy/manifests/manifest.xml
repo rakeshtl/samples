@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessageGoodResponse" version="SHA-512:9383af63982cd2bd5125cc7462eefa042f425a037d01c44ae40d2fbcae89b09e3b5857899d50c2dbba82492b6593f516c990e11f423096b82ee98fc826098559"/>
+        <VersionInfo resourceName="JavaSignSoapDoc" version="SHA-512:b91132c43d3fc34a3a37bcb2fbf4d163a6fde87e41573eee6dd8a863b5c3dda8476ee7eb210cd0561b40aa50320f924a65833ac7d73bc1b6d45dd131796656c8"/>
+        <VersionInfo resourceName="KeyValueMapJksProperties" version="SHA-512:8caeb8488223cc2465af2b8e8ffedb859ae3fb5c2ba7a838417c2164139f2ac79251f109638ba2fa7173386d7eaf1ada0140e848b3b65f2fefe8684d2f71035f"/>
+        <VersionInfo resourceName="RaiseFaultBadHeader" version="SHA-512:f745910d872547a63c9dcb6cc53d054332b045c566a776498db3c23d8108d0d0267e56fa9936214e81f57ea2e7d0546fd5e0dc0b75889152d974c90c4a6f7fb5"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9c894a4453ab0d92872cebc83ccfe63b3edaba4a9d7d0ed269398fc3ba1bbd252d3744e704afff7002910c5861e3f76357af2e615330caf3be1aac5e826365d2"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="java://commons-codec-1.7.jar" version="SHA-512:efa63d7b300aad2d588afbd046db10228650306bd52c19802bea5eb36796e277dcd3755b139fadd8e2ceab8cc910b0a7b3bbf0b684f04feacf37926f5946df34"/>
+        <VersionInfo resourceName="java://commons-io-2.4.jar" version="SHA-512:957a438894a196e534af9ae1e61fb21e16f273952b55a81abb8faf0b139fc031ea940cf477f81704db417d1ce6ff2d9ddd4a2cbf316903b0e2dc1aeaef24f292"/>
+        <VersionInfo resourceName="java://commons-lang3-3.7.jar" version="SHA-512:bfd3b6b849f7af97a337b5884bf4d0f610753dad6ca0d95e84457cd47b0b1f2a614219632ef2283ec7da0725c49ae653c8c1c1f24186cb97db31313889b0ab08"/>
+        <VersionInfo resourceName="java://edge-wssec-sign-x509-1.0.3.jar" version="SHA-512:ffccabc46003b9e1e524c78a21b3cc0660718d61458826444073fdf7429d853bdf5dd9eff58d6b227eafd4a65c38a19cebab0657a51bc5a45e51cb3403231c18"/>
+        <VersionInfo resourceName="java://logback-classic-1.0.13.jar" version="SHA-512:f88d37966d47598958bc9982b27fe68edb9b5434da801c6a6f296d69c367ba2f49f0a8410d4ecf64c5383a50b28a8a7c42b7aac0894cb3966a0287a45243fa8d"/>
+        <VersionInfo resourceName="java://logback-core-1.0.13.jar" version="SHA-512:50d95eb22968be4f5279a6ef1e9c2763278f4cf2244bdfb8c307f156f8c02473089fdf9216d135900d576ac511d3b907626687a8e3ba17fa6ea8cdb27dcc831b"/>
+        <VersionInfo resourceName="java://message-flow-1.0.0.jar" version="SHA-512:db2001836bbce5a8275a6038db4f46c4dbf66c864a02d082437798bde5abc4af935ebca14d814f4c5ef41d78b0acc4ca00609299194e335d86abee493881f742"/>
+        <VersionInfo resourceName="java://slf4j-api-1.7.25.jar" version="SHA-512:8c9c023cfe6cefb4cfbe98488bb3b508ee796a5d37ab2a795b3e6f0f18a9d71fd61b91bc8f2cc9b840f46d1388b861f5a055218ea12327364a43ec37be96fe7e"/>
+        <VersionInfo resourceName="java://ws-sec.jar" version="SHA-512:1dca3d6c3dba39ed67eca025100082aecf6c371012234f228ea959bbc4a0a45bcc69e31f2a183c4c93b2ce83570e7463fb465df1f4141825845a593b7c520dfd"/>
+        <VersionInfo resourceName="java://wss4j-bindings-2.2.1.jar" version="SHA-512:00e699feb7298d52d7befdc7cb9eacac25165a0efed056bdb92c3241aae5cce27f39d5153caee6652be694416334c848b9cc213f9e6d8e3df48aba5f0b1889ea"/>
+        <VersionInfo resourceName="java://wss4j-ws-security-common-2.2.1.jar" version="SHA-512:b3c3e2071e005538222d1772d2bda663faf8c923800c66a1d0cae8967febf048834ef74f7397ce70738b5eee699636b25b13afb71e164cc09f4fd9edbb524ef6"/>
+        <VersionInfo resourceName="java://wss4j-ws-security-dom-2.2.1.jar" version="SHA-512:dd7360293163455491402c5539943f5810732953fdfbbc0d012faa89c9f24eff0528ec677b9f5e29c8a5896b125d3d34e68601c692b2f8af190d798d985d16ba"/>
+        <VersionInfo resourceName="java://wss4j-ws-security-stax-2.2.1.jar" version="SHA-512:360fcd77f1b778d09ad2479c666f45eaa2793d692d48751b48d0ec810a43f8cfcc180a552715a295031adf1ef7a3efca7f94b58a1d8b2968b496d560fe6a5701"/>
+        <VersionInfo resourceName="java://xmlsec-2.1.1.jar" version="SHA-512:ce4dd159991de54288a7c8aab4311aa1b83c910cc7f8d915663ddb441f0f21395fc895880379c3fb47390677172831a42c721188e79b820c198793029ff6f6e0"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
