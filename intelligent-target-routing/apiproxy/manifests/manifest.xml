@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:2705fd4154e903c58e62ce953a1ca514f55bde53f5cff150eb9b3fba67ad658680d2be156faba514b3c4681cb150a6a46f411a9146592ed913514ea64401a3d6"/>
+        <VersionInfo resourceName="error_sharedflow" version="SHA-512:3f41a3c40fbeb52a949ea3f3796509e64be681ac616872db2f3c44a92c0779b8905fd872968c438b0cf4662e04be40f947235cc71bfbb4890f0256d400136a24"/>
+        <VersionInfo resourceName="mtls_sharedflow" version="SHA-512:e737ad4c5d032d0363b9cfe8fb977726321120e4553f42fcea2970ec230bb0b2b0554bf72371034c075e8424f3c74306472da1ec95d4a22381883daa9ea53306"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:95328637390b32509fd09d786c2c76d098eed00f5712022b6f76c2519d31bbd8d23fa3c96119e1ea65993070fac991e28877e44a5b5238f0e82ef1ce6538fd21"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

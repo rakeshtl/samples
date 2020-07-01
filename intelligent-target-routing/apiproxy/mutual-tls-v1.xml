@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="mutual-tls-v1">
+    <Basepaths>/v1/mtls</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525132562667</CreatedAt>
+    <CreatedBy>apickelsimer@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>mutual-tls-v1</DisplayName>
+    <LastModifiedAt>1525196144443</LastModifiedAt>
+    <LastModifiedBy>apickelsimer@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:0b94b5a8628626ea616c3ec4758e915b1026ad9c0e81a99de85e35817092aa1d3394fd923bc9d9949e62c39b3fe51691395dc41e1aa7fdf12ae4c5dbbe295df1</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>error_sharedflow</Policy>
+        <Policy>mtls_sharedflow</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
